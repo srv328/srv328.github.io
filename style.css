@@ -1,0 +1,162 @@
+body {
+    font-family: 'Cascadia Code', sans-serif;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f0f0f0, #dcdcdc);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+header {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+a {
+    color: #4682B4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #4169E1;
+}
+
+a:active {
+    color: #00008B;
+}
+
+
+.profile-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-image img {
+    width: 240px;
+    height: 240px;
+    border: thin solid gray;
+}
+
+p {
+    text-indent: 40px;
+    margin: 10px;
+}
+
+.social-links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: #FF5733; 
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #FF8C00;
+}
+
+.social-links a:active {
+    color: #FF4500;
+}
+
+
+.skills {
+    margin-bottom: 20px;
+}
+.skills h2 {
+    margin-bottom: 10px;
+}
+
+.projects {
+    margin-bottom: 20px;
+}
+
+.projects h2 {
+    margin-bottom: 10px;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.left-text {
+  margin-right: auto;
+  margin-left: 0.5vmax;
+}
+
+.right-text {
+  margin-left: auto;
+  margin-right: 0.5vmax;
+}
+
+.footer {
+  display: flex;
+  min-height: 2.5vmax;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.project-list {
+    list-style: none;
+}
+
+.project-list li {
+    margin-bottom: 20px;
+}
+
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-images img {
+    width: 25vmax;
+    height: auto;
+    margin: 5px;
+}
+
+.project-list li h3 {
+    text-align: center;
+}
+
+.projects ul {
+    padding: 0;
+}
+
+.additional-info {
+    margin-left: 60px;
+}
+.project-list > li {
+    border: 2px dashed #876;
+}
+
+.project-list > li.additional-info {
+    border: none;
+}
